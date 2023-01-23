@@ -38,7 +38,7 @@ contract Exchange is IExchange, ReentrancyGuarded, EIP712, OwnableUpgradeable, U
     }
 
     modifier setupExecution() {
-        remainingETH = msg.value;
+        remainingETH = msg.value; // @audit state change?
         isInternal = true;
         _;
         remainingETH = 0;

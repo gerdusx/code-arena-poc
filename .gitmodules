@@ -1,0 +1,9 @@
+[submodule "2022-11-non-fungible-blur/lib/openzeppelin-contracts"]
+	path = 2022-11-non-fungible-blur/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "2022-11-non-fungible-blur/lib/openzeppelin-contracts-upgradeable"]
+	path = 2022-11-non-fungible-blur/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/openzeppelin/openzeppelin-contracts-upgradeable
+[submodule "2023-01-timeswap/lib/openzeppelin-contracts"]
+	path = 2023-01-timeswap/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
